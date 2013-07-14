@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayerWithDataReaders", "DataAccessLayerWithDataReaders\DataAccessLayerWithDataReaders.csproj", "{7612EEEA-C267-49FB-915B-BFD17A4ADF54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{CA460764-688F-40B9-B17F-7C66BB0D8A60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E6B61B02-9F99-4D29-809B-ED8B7F5F52FE}"
+	ProjectSection(SolutionItems) = preProject
+		DataAccessLayerWithDataReaders.vsmdi = DataAccessLayerWithDataReaders.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DataAccessLayerWithDataReaders.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7612EEEA-C267-49FB-915B-BFD17A4ADF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7612EEEA-C267-49FB-915B-BFD17A4ADF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7612EEEA-C267-49FB-915B-BFD17A4ADF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7612EEEA-C267-49FB-915B-BFD17A4ADF54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA460764-688F-40B9-B17F-7C66BB0D8A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA460764-688F-40B9-B17F-7C66BB0D8A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA460764-688F-40B9-B17F-7C66BB0D8A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA460764-688F-40B9-B17F-7C66BB0D8A60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
